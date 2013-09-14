@@ -3,3 +3,5 @@
 /items.pyc
 /pipelines.pyc
 /settings.pyc
+.project
+.pydevproject

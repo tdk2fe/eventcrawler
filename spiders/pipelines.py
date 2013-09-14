@@ -7,8 +7,9 @@ import os
 import time
 
 from scrapy import signals
-from scrapy.contrib.exporter import JsonItemExporter
+
 from scrapy.xlib.pydispatch import dispatcher
+from scrapy import signals
 
 
 class JsonExportPipeline(object):

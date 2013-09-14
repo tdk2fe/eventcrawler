@@ -3,10 +3,7 @@ import urllib
 from scrapy import log
 from scrapy.selector import HtmlXPathSelector
 from scrapy.spider import BaseSpider
-
 from spiders.items import EventItem
-
-
 
 
 class LaduenewsSpider(BaseSpider):

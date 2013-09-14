@@ -2,7 +2,6 @@ from scrapy import log
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.contrib.spiders import CrawlSpider, Rule
 from scrapy.selector import HtmlXPathSelector
-
 from spiders.items import EventItem
 
 

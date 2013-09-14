@@ -1,0 +1,5 @@
+*.pyc
+/__init__.pyc
+/items.pyc
+/pipelines.pyc
+/settings.pyc

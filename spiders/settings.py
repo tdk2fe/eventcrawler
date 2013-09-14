@@ -9,12 +9,12 @@
 
 LOG_LEVEL = 'INFO'
 
-SPIDER_MODULES = ['crawlers.spiders']
-NEWSPIDER_MODULE = 'crawlers.spiders'
+SPIDER_MODULES = ['spiders.spiders']
+NEWSPIDER_MODULE = 'spiders.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'alivemag (+http://www.yourdomain.com)'
 
 ITEM_PIPELINES = [
-    'crawlers.pipelines.JsonExportPipeline',
+    'spiders.pipelines.JsonExportPipeline',
 ]

@@ -5,3 +5,6 @@
 /settings.pyc
 .project
 .pydevproject
+virtenv/*
+
+requirements.txt

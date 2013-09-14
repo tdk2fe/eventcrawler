@@ -7,6 +7,8 @@ from scrapy.spider import BaseSpider
 from spiders.items import EventItem
 
 
+
+
 class LaduenewsSpider(BaseSpider):
     name = 'laduenews'
     allowed_domains = ['laduenews.com']
